@@ -29,7 +29,7 @@ C:\Users\nso89>cd using-text-to-generate-latex-hyperlinks-main
 C:\Users\nso89\using-text-to-generate-latex-hyperlinks-main>python main.py
 ```
 
-3. It asks you for the `text` and `link` to produce a latex hyperlink.
+3. It asks you for the `text` and `link` to produce a `latex` hyperlink.
 
 **Example**:
 ```batch
