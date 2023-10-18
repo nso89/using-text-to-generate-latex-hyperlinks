@@ -1,5 +1,5 @@
-# project-name
-Project Description
+# using-text-to-generate-latex-hyperlinks
+Using Text to Generate Latex Hyperlinks
 
 * [Prerequisites](#prerequisites)
 * [Setup](#setup)
