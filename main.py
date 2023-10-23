@@ -12,13 +12,18 @@ def verify(parameter: str, name: str) -> None:
 
 def main():
 
-    text = input("Text: ").strip()
-    verify(parameter = text, name = "Text")
+    try:
+        
+        text = input("Text: ").strip()
+        verify(parameter = text, name = "Text")
 
-    link = input("Link: ").strip()
-    verify(parameter = link, name = "Hyperlink")
+        link = input("Link: ").strip()
+        verify(parameter = link, name = "Hyperlink")
 
-    print(f"Output: \href{{{link}}}{{{text}}}")
+        print(f"Output: \href{{{link}}}{{{text}}}")
+    
+    except(ValueError) as e:
+        print(e)
 
 if __name__ == "__main__":
     main()
